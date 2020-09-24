@@ -7,10 +7,9 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                sh 'ng build --prod'
                 echo 'Building done'
             }
         }
-        
+
     }
 }
