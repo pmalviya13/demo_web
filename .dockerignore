@@ -44,3 +44,13 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+.git
+.firebase
+.editorconfig
+/node_modules
+/e2e
+/docs
+.gitignore
+*.zip
+*.md
