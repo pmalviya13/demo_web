@@ -1,0 +1,14 @@
+<p>student-list works!</p>
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Photo</th>
+  </tr>
+
+  <tr *ngFor="let student of students | async">
+    <td>{{student.name}}</td>
+    <td ><img style="width: 100px;height: 80px;" [src]="student.photo"></td>
+
+  </tr>
+
+</table>
